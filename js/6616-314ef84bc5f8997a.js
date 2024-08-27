@@ -153,7 +153,7 @@
                                           id: "ca_clipboard",
                                           type: "text",
                                           className:
-                                            "text-2xl box-border border-none bg-transparent text-black w-full",
+                                            "text-xs md:text-base lg:text-xl box-border border-none bg-transparent text-black w-11/12 whitespace-nowrap overflow-hidden text-ellipsis truncate",
                                           value:
                                             "0x041532136E423BB271d8089E859C9f18162e57Fb",
                                           placeholder: "Crypto Token Address",
@@ -165,12 +165,12 @@
                                           children: [
                                             (0, a.jsxs)("button", {
                                               className:
-                                                "absolute top-0 right-0 outline-none align-top w-1/12 h-full cursor-pointer bg-transparent border-none hover:shadow-none",
+                                                "absolute top-0 right-0 outline-none align-top w-1/12 min-w-8 h-full cursor-pointer bg-transparent border-none hover:shadow-none z-10",
                                               onClick: () => copyCA(),
                                               children: [
                                                 (0, a.jsxs)("div", {
                                                   className:
-                                                    "w-9/12 h-9/12 p-3",
+                                                    "w-9/12 h-9/12 p-1 max-w-12",
                                                   children: [
                                                     (0, a.jsxs)("span", {
                                                       children: [

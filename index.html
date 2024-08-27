@@ -126,17 +126,17 @@
                         <input
                           id="ca_clipboard"
                           type="text"
-                          class="text-2xl box-border border-none bg-transparent text-black w-full"
+                          class="text-xs md:text-base lg:text-xl box-border border-none bg-transparent text-black w-11/12 whitespace-nowrap overflow-hidden text-ellipsis truncate"
                           value="0x041532136E423BB271d8089E859C9f18162e57Fb"
                           placeholder="Crypto Token Address"
                           disabled
                         />
                         <div class="absolute top-0 right-0 w-full h-full">
                           <button
-                            class="absolute top-0 right-0 outline-none align-top w-1/12 h-12 cursor-pointer bg-transparent border-none hover:shadow-none"
+                            class="absolute top-0 right-0 outline-none align-top w-1/12 min-w-8 h-12 cursor-pointer bg-transparent border-none hover:shadow-none z-10"
                             onclick="copyCA()"
                           >
-                            <div class="w-9/12 h-9/12 p-3">
+                            <div class="w-9/12 h-9/12 p-1 max-w-12">
                               <span>
                                 <svg
                                   focusable="false"
