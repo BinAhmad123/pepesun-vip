@@ -111,33 +111,21 @@
                           ],
                         }),
                         (0, a.jsxs)("div", {
-                          className:
-                            "w-4/5 h-4/5 m-auto bg-black text-white relative",
+                          className: "box-border w-full h-full",
                           children: [
                             (0, a.jsxs)("div", {
-                              className: "w-full h-full m-auto",
-                              children: [
-                                (0, a.jsxs)("img", {
-                                  src: "/images/6864f851d6c326efeaadcceb11ec132a.svg",
-                                  alt: "Pastel Pink Rectangle Blob",
-                                  loading: "lazy",
-                                  className:
-                                    "w-full h-full transform scale-y-50",
-                                }),
-                              ],
-                            }),
-                            (0, a.jsxs)("div", {
-                              className:
-                                "w-full h-1/2 absolute top-0 left-0 pl-[20%] transform translate-y-2/4",
+                              className: "w-full h-full",
                               children: [
                                 (0, a.jsxs)("div", {
-                                  className: "w-full h-full relative",
+                                  className:
+                                    "w-full h-full ",
                                   children: [
                                     (0, a.jsxs)("div", {
-                                      className: "w-full h-full ",
+                                      className:
+                                        "transform origin-top-left w-full h-auto min-h-[1px] pointer-events-none absolute transform scale-125 -translate-x-[11.54%] -translate-y-[43.6%]",
                                       children: [
                                         (0, a.jsxs)("img", {
-                                          src: "/images/c060bab72e86ef8ff304d5c0ad96b84d.png",
+                                          src: "images/c060bab72e86ef8ff304d5c0ad96b84d.png",
                                           alt: "CA",
                                           loading: "lazy",
                                           className:
@@ -147,30 +135,44 @@
                                     }),
                                     (0, a.jsxs)("div", {
                                       className:
-                                        "absolute top-0 right-0 w-10/12 h-full p-3 pl-1/12 flex items-center",
+                                        "absolute top-0 left-[6.5rem] w-full h-full",
                                       children: [
-                                        (0, a.jsxs)("input", {
-                                          id: "ca_clipboard",
-                                          type: "text",
-                                          className:
-                                            "text-2xl box-border border-none bg-transparent text-black w-full",
-                                          value:
-                                            "0x041532136E423BB271d8089E859C9f18162e57Fb",
-                                          placeholder: "Crypto Token Address",
-                                          disabled: true,
-                                        }),
                                         (0, a.jsxs)("div", {
                                           className:
-                                            "absolute top-0 right-0 w-full h-full",
+                                            "w-full h-full animate-pop-right duration-500 delay-100 opacity-0",
                                           children: [
-                                            (0, a.jsxs)("button", {
+                                            (0, a.jsxs)("div", {
                                               className:
-                                                "absolute top-0 right-0 outline-none align-top w-1/12 h-full cursor-pointer bg-transparent border-none hover:shadow-none",
-                                              onClick: () => copyCA(),
+                                                "transform origin-top-left w-full h-auto min-h-[1px] pointer-events-none absolute transform scale-125 -translate-x-[11.54%] -translate-y-[43.6%]",
                                               children: [
-                                                (0, a.jsxs)("div", {
+                                                (0, a.jsxs)("img", {
+                                                  src: "images/6616-314ef84bc5f8997a.png",
+                                                  alt: "CA",
+                                                  loading: "lazy",
                                                   className:
-                                                    "w-9/12 h-9/12 p-3",
+                                                    "w-full h-full block object-cover",
+                                                }),
+                                              ],
+                                            }),
+                                            (0, a.jsxs)("div", {
+                                              className:
+                                                "absolute top-0 left-[6.5rem] w-full h-full",
+                                              children: [
+                                                (0, a.jsxs)("input", {
+                                                  id: "ca_clipboard",
+                                                  type: "text",
+                                                  className:
+                                                    "w-[calc(100%-11rem)] h-12 mr-2 text-2xl p-4 box-border border-none bg-transparent",
+                                                  value:
+                                                    "0x041532136E423BB271d8089E859C9f18162e57Fb",
+                                                  placeholder:
+                                                    "Crypto Token Address",
+                                                  disabled: true,
+                                                }),
+                                                (0, a.jsxs)("button", {
+                                                  className:
+                                                    "relative outline-none align-top h-12 cursor-pointer bg-transparent border-none rounded-md",
+                                                  onclick: "copyCA()",
                                                   children: [
                                                     (0, a.jsxs)("span", {
                                                       children: [
@@ -178,7 +180,7 @@
                                                           focusable: "false",
                                                           role: "img",
                                                           className:
-                                                            "relative z-10",
+                                                            "octicon octicon-copy inline-block user-select-none align-text-bottom overflow-visible",
                                                           viewBox: "0 0 16 16",
                                                           width: "16",
                                                           height: "16",
@@ -207,7 +209,7 @@
                                                         "Copy url to clipboard",
                                                       areaHidden: true,
                                                       className:
-                                                        "absolute text-black font-sans not-italic top-0 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-white bg-opacity-70 border border-gray-300 p-2 rounded-md opacity-0 transition-opacity duration-200",
+                                                        "absolute top-[-3rem] left-[-4rem] whitespace-nowrap bg-white bg-opacity-70 border border-gray-300 p-2 rounded-md opacity-0 transition-opacity duration-200",
                                                       children: [
                                                         "Copy CA to clipboard",
                                                       ],
@@ -377,6 +379,17 @@
                                 ],
                               }),
                             ],
+                          }),
+                          (0, a.jsx)("div", {
+                            className:
+                              "flex pt-10 md:pt-0 justify-center md:justify-end",
+                            children: (0, a.jsx)("iframe", {
+                              id: "dextools-widget",
+                              title: "DEXTools Trading Chart",
+                              width: "500",
+                              height: "400",
+                              src: "https://www.dextools.io/widget-chart/en/tron/pe-light/TMo6VupuSZvCTrxxis5k8aBBnnUGaCpTcs?theme=dark&chartType=10&chartResolution=30&drawingToolbars=false&headerColor=121215&tvPlatformColor=121215&tvPaneColor=121215",
+                            }),
                           }),
                         ],
                       }),
