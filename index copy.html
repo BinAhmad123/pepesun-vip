@@ -98,65 +98,28 @@
                     />
                   </div>
                 </div>
-                Copy
-                <div class="box-border w-full h-full">
-                  <div class="w-full h-full">
-                    <div
-                      class="w-full h-full animate-pop-right duration-500 delay-100 opacity-0"
-                    >
-                      <div
-                        class="transform origin-top-left w-full h-auto min-h-[1px] pointer-events-none absolute transform scale-125 -translate-x-[11.54%] -translate-y-[43.6%]"
-                      >
-                        <img
-                          src="images/c060bab72e86ef8ff304d5c0ad96b84d.png"
-                          alt="CA"
-                          loading="lazy"
-                          class="w-full h-full block object-cover"
-                        />
-                      </div>
-                      <div class="absolute top-0 left-[6.5rem] w-full h-full">
-                        <input
-                          id="ca_clipboard"
-                          class="w-[calc(100%-11rem)] h-12 mr-2 text-2xl p-4 box-border border-none bg-transparent"
-                          placeholder="Crypto Token Address"
-                          value="0x041532136E423BB271d8089E859C9f18162e57Fb"
-                          disabled
-                        />
-                        <button
-                          onclick="copyCA()"
-                          class="relative outline-none align-top h-12 cursor-pointer bg-transparent border-none rounded-md"
-                        >
-                          <span>
-                            <svg
-                              aria-hidden="true"
-                              focusable="false"
-                              role="img"
-                              class="octicon octicon-copy inline-block user-select-none align-text-bottom overflow-visible"
-                              viewBox="0 0 16 16"
-                              width="16"
-                              height="16"
-                              fill="currentColor"
-                            >
-                              <path
-                                d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"
-                              ></path>
-                              <path
-                                d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"
-                              ></path>
-                            </svg>
-                          </span>
-                          <span
-                            id="copy_tooltip"
-                            aria-label="Copy url to clipboard"
-                            aria-hidden="true"
-                            class="absolute top-[-3rem] left-[-4rem] whitespace-nowrap bg-white bg-opacity-70 border border-gray-300 p-2 rounded-md opacity-0 transition-opacity duration-200"
-                          >
-                            Copy CA to clipboard
-                          </span>
-                        </button>
-                      </div>
+                <div style="box-sizing:border-box;width:100%;height:100%;">
+                    <div style="width:100%;height:100%;">
+                        <div style="width:100%;height:100%;animation:pop-RIGHT-c42b6b03-477b-4143-b09f-66c519d723b1 500ms 100ms both paused;">
+                            <div style="transform-origin:0px 0px;width:100%;height:auto;min-height:1px;pointer-events:none;position:absolute;transform:scale(1.3) translate(-11.53846154%, -43.59686876%);">
+                                <img src="images/c060bab72e86ef8ff304d5c0ad96b84d.png" alt="CA" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;">
+                            </div>
+                            <div style="position:absolute;top:0;left:6.5rem;width:100%;height:100%;">
+                                <input id="ca_clipboard" style="width:calc(100% - 11rem);height:3rem;margin-right:0.5rem;font-size: 2.5rem;padding:1rem;box-sizing:border-box;border:none;background: transparent;"placeholder="Crypto Token Address" value="0x041532136E423BB271d8089E859C9f18162e57Fb" disabled></input>
+                                <button onclick="copyCA()" style="position:relative;outline:none;vertical-align:top;height:3rem;cursor:pointer;background-color: transparent;border:none;border-radius:5px;">
+                                    <span>
+                                        <svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-copy" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;">
+                                            <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path>
+                                            <path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+                                        </svg>
+                                    </span>
+                                    <span id="copy_tooltip" aria-label="Copy url to clipboard" aria-hidden="true" style="position:absolute;top:-3rem;left:-4rem;text-wrap:nowrap;background-color: rgba(255, 255, 255, 0.7);border:1px solid rgba(226, 226, 226, 1);padding:0.5rem 1rem;border-radius:5px;opacity:0;transition: opacity 0.2s;">
+                                        Copy CA to clipboard
+                                    </span>
+                                </button>
+                            </div>
+                        </div>ddddddddddddddddddddddddddddddddddddddddddddddddddddd
                     </div>
-                  </div>
                 </div>
                 <div class="flex md:flex-row flex-col md:gap-5 gap-2">
                   <a
