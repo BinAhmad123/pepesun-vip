@@ -231,7 +231,6 @@
                             "flex md:flex-row flex-col md:gap-5 gap-2 ",
                           children: [
                             (0, a.jsxs)("a", {
-                              target: "_blank",
                               href: "https://x.com/iampepesun",
                               className: "btn bg-green  gap-5  ",
                               children: [
@@ -245,7 +244,6 @@
                               ],
                             }),
                             (0, a.jsxs)("a", {
-                              target: "_blank",
                               href: "https://t.me/iampepesun",
                               className: "btn bg-green  gap-5  ",
                               children: [
@@ -259,7 +257,6 @@
                               ],
                             }),
                             (0, a.jsxs)("a", {
-                              target: "_blank",
                               href: "/",
                               className: "btn bg-green  gap-5  ",
                               children: [
@@ -648,7 +645,6 @@
                     children: [
                       (0, a.jsx)("a", {
                         href: "https://t.me/iampepesun",
-                        target: "_blank",
                         children: (0, a.jsx)("img", {
                           src: "/images/tg.svg",
                           width: 30,
@@ -656,7 +652,6 @@
                       }),
                       (0, a.jsx)("a", {
                         href: "https://x.com/iampepesun",
-                        target: "_blank",
                         children: (0, a.jsx)("img", {
                           src: "/images/x_1.svg",
                           width: 30,
@@ -664,7 +659,6 @@
                       }),
                       (0, a.jsx)("a", {
                         href: "https://coinmarketcap.com/currencies/pepesun/",
-                        target: "_blank",
                         children: (0, a.jsx)("img", {
                           src: "/images/coinmarketcap.svg",
                           width: 30,
