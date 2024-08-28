@@ -257,7 +257,7 @@
                               ],
                             }),
                             (0, a.jsxs)("a", {
-                              href: "/",
+                              href: "https://sunpump.meme/",
                               className: "btn bg-green  gap-5  ",
                               children: [
                                 " ",
